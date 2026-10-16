@@ -1,0 +1,11 @@
+**/__pycache__
+**/*.pyc
+.git
+.gitignore
+.vscode
+.idea
+*.zip
+# Local state is rebuilt by docker/entrypoint.sh
+kafka_pipeline/wal_stream.log
+kafka_pipeline/consumer_offsets.json
+kafka_pipeline/stream_state.json

@@ -1,0 +1,2252 @@
+[
+  {
+    "scheme": "Kotak Corporate Bond Fund(M-IDCW)",
+    "category": "Debt - Corporate Bond Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Corporate Bond Index",
+    "latest_nav": 1035.21,
+    "cagr_1y": 3.69,
+    "exp_ratio": 0.67
+  },
+  {
+    "scheme": "Kotak Corporate Bond Fund(G)",
+    "category": "Debt - Corporate Bond Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Corporate Bond Index",
+    "latest_nav": 3133.58,
+    "cagr_1y": 3.69,
+    "exp_ratio": 0.67
+  },
+  {
+    "scheme": "Aditya Birla SL Corp Bond Fund(G)",
+    "category": "Debt - Corporate Bond Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Corporate Bond Index",
+    "latest_nav": 93.46,
+    "cagr_1y": 4.27,
+    "exp_ratio": 0.47
+  },
+  {
+    "scheme": "Aditya Birla SL Corp Bond Fund(M-IDCW)",
+    "category": "Debt - Corporate Bond Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Corporate Bond Index",
+    "latest_nav": 12.23,
+    "cagr_1y": 4.27,
+    "exp_ratio": 0.47
+  },
+  {
+    "scheme": "ICICI Pru Corp Bond Fund(M-IDCW)",
+    "category": "Debt - Corporate Bond Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Corporate Bond Index",
+    "latest_nav": 10.42,
+    "cagr_1y": 4.89,
+    "exp_ratio": 0.53
+  },
+  {
+    "scheme": "ICICI Pru Corp Bond Fund(G)",
+    "category": "Debt - Corporate Bond Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Corporate Bond Index",
+    "latest_nav": 24.74,
+    "cagr_1y": 4.89,
+    "exp_ratio": 0.53
+  },
+  {
+    "scheme": "HDFC Corp Bond Fund(G)",
+    "category": "Debt - Corporate Bond Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Corporate Bond Index",
+    "latest_nav": 26.93,
+    "cagr_1y": 3.47,
+    "exp_ratio": 0.6
+  },
+  {
+    "scheme": "HDFC Corp Bond Fund(Q-IDCW)",
+    "category": "Debt - Corporate Bond Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Corporate Bond Index",
+    "latest_nav": 10.34,
+    "cagr_1y": 3.47,
+    "exp_ratio": 0.6
+  },
+  {
+    "scheme": "ICICI Pru Corp Bond Fund(Q-IDCW)",
+    "category": "Debt - Corporate Bond Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Corporate Bond Index",
+    "latest_nav": 10.87,
+    "cagr_1y": 4.89,
+    "exp_ratio": 0.53
+  },
+  {
+    "scheme": "HDFC Corp Bond Fund(IDCW)",
+    "category": "Debt - Corporate Bond Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Corporate Bond Index",
+    "latest_nav": 17.44,
+    "cagr_1y": 3.47,
+    "exp_ratio": 0.6
+  },
+  {
+    "scheme": "Aditya Birla SL Liquid Fund(DD-IDCW)",
+    "category": "Debt - Liquid Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Liquid Debt Index",
+    "latest_nav": 100.2,
+    "cagr_1y": 4.1,
+    "exp_ratio": 0.34
+  },
+  {
+    "scheme": "Aditya Birla SL Liquid Fund(G)",
+    "category": "Debt - Liquid Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Liquid Debt Index",
+    "latest_nav": 356.66,
+    "cagr_1y": 4.17,
+    "exp_ratio": 0.34
+  },
+  {
+    "scheme": "Aditya Birla SL Liquid Fund(W-IDCW)",
+    "category": "Debt - Liquid Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Liquid Debt Index",
+    "latest_nav": 100.34,
+    "cagr_1y": 4.08,
+    "exp_ratio": 0.34
+  },
+  {
+    "scheme": "DSP Liquidity Fund-Reg(G)",
+    "category": "Debt - Liquid Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Liquid Debt Index",
+    "latest_nav": 3161.39,
+    "cagr_1y": 4.13,
+    "exp_ratio": 0.27
+  },
+  {
+    "scheme": "DSP Liquidity Fund-Reg(W-IDCW)",
+    "category": "Debt - Liquid Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Liquid Debt Index",
+    "latest_nav": 1000.9,
+    "cagr_1y": 4.05,
+    "exp_ratio": 0.27
+  },
+  {
+    "scheme": "IDFC Cash Fund-Reg(DD-IDCW)",
+    "category": "Debt - Liquid Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Liquid Fund Index",
+    "latest_nav": 1001.08,
+    "cagr_1y": 4.04,
+    "exp_ratio": 0.25
+  },
+  {
+    "scheme": "IDFC Cash Fund-Reg(G)",
+    "category": "Debt - Liquid Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Liquid Fund Index",
+    "latest_nav": 2677.77,
+    "cagr_1y": 4.08,
+    "exp_ratio": 0.25
+  },
+  {
+    "scheme": "IDFC Cash Fund-Reg(M-IDCW)",
+    "category": "Debt - Liquid Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Liquid Fund Index",
+    "latest_nav": 1003.32,
+    "cagr_1y": 4.0,
+    "exp_ratio": 0.25
+  },
+  {
+    "scheme": "IDFC Cash Fund-Reg(W-IDCW)",
+    "category": "Debt - Liquid Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Liquid Fund Index",
+    "latest_nav": 1002.09,
+    "cagr_1y": 4.02,
+    "exp_ratio": 0.25
+  },
+  {
+    "scheme": "HDFC Liquid Fund(DD-IDCW)",
+    "category": "Debt - Liquid Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Liquid Debt Index",
+    "latest_nav": 1019.82,
+    "cagr_1y": 4.0,
+    "exp_ratio": 0.3
+  },
+  {
+    "scheme": "Aditya Birla SL Money Manager Fund(W-IDCW)",
+    "category": "Debt - Money Market Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Money Market Index",
+    "latest_nav": 100.18,
+    "cagr_1y": 5.19,
+    "exp_ratio": 0.33
+  },
+  {
+    "scheme": "Aditya Birla SL Money Manager Fund(DD-IDCW)",
+    "category": "Debt - Money Market Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Money Market Index",
+    "latest_nav": 100.02,
+    "cagr_1y": 5.18,
+    "exp_ratio": 0.33
+  },
+  {
+    "scheme": "Aditya Birla SL Money Manager Fund(G)",
+    "category": "Debt - Money Market Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Money Market Index",
+    "latest_nav": 309.99,
+    "cagr_1y": 5.18,
+    "exp_ratio": 0.33
+  },
+  {
+    "scheme": "DSP Savings Fund-Reg(G)",
+    "category": "Debt - Money Market Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Money Market Index",
+    "latest_nav": 44.45,
+    "cagr_1y": 4.37,
+    "exp_ratio": 0.51
+  },
+  {
+    "scheme": "DSP Savings Fund-Reg(M-IDCW Reinv)",
+    "category": "Debt - Money Market Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Money Market Index",
+    "latest_nav": 10.84,
+    "cagr_1y": 4.37,
+    "exp_ratio": 1.2
+  },
+  {
+    "scheme": "IDFC Money Manager Fund-Reg(DD-IDCW)",
+    "category": "Debt - Money Market Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Money Market Index",
+    "latest_nav": 10.1,
+    "cagr_1y": 4.36,
+    "exp_ratio": 0.93
+  },
+  {
+    "scheme": "IDFC Money Manager Fund-Reg(G)",
+    "category": "Debt - Money Market Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Money Market Index",
+    "latest_nav": 34.17,
+    "cagr_1y": 4.37,
+    "exp_ratio": 0.93
+  },
+  {
+    "scheme": "IDFC Money Manager Fund-Reg(M-IDCW)",
+    "category": "Debt - Money Market Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Money Market Index",
+    "latest_nav": 10.28,
+    "cagr_1y": 4.37,
+    "exp_ratio": 0.93
+  },
+  {
+    "scheme": "IDFC Money Manager Fund-Reg(W-IDCW)",
+    "category": "Debt - Money Market Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Money Market Index",
+    "latest_nav": 10.13,
+    "cagr_1y": 4.37,
+    "exp_ratio": 0.93
+  },
+  {
+    "scheme": "HDFC Money Market Fund(DD-IDCW Reinv)",
+    "category": "Debt - Money Market Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Money Market Index",
+    "latest_nav": 1063.64,
+    "cagr_1y": 5.06,
+    "exp_ratio": 1.2
+  },
+  {
+    "scheme": "Aditya Birla SL Savings Fund-Reg(DD-IDCW)",
+    "category": "Debt - Ultra Short Duration Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Ultra Short Duration Debt Index",
+    "latest_nav": 100.0,
+    "cagr_1y": 5.02,
+    "exp_ratio": 0.52
+  },
+  {
+    "scheme": "Aditya Birla SL Savings Fund-Reg(G)",
+    "category": "Debt - Ultra Short Duration Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Ultra Short Duration Debt Index",
+    "latest_nav": 460.06,
+    "cagr_1y": 5.04,
+    "exp_ratio": 0.52
+  },
+  {
+    "scheme": "Aditya Birla SL Savings Fund-Reg(W-IDCW)",
+    "category": "Debt - Ultra Short Duration Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Ultra Short Duration Debt Index",
+    "latest_nav": 100.42,
+    "cagr_1y": 4.94,
+    "exp_ratio": 0.52
+  },
+  {
+    "scheme": "SBI Magnum Ultra Short Duration Fund-Reg(DD-IDCW)",
+    "category": "Debt - Ultra Short Duration Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Ultra Short Term Debt Index",
+    "latest_nav": 1902.13,
+    "cagr_1y": 4.75,
+    "exp_ratio": 0.49
+  },
+  {
+    "scheme": "SBI Magnum Ultra Short Duration Fund-Reg(W-IDCW)",
+    "category": "Debt - Ultra Short Duration Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Ultra Short Term Debt Index",
+    "latest_nav": 1224.24,
+    "cagr_1y": 4.76,
+    "exp_ratio": 0.49
+  },
+  {
+    "scheme": "SBI Magnum Ultra Short Duration Fund-Reg(G)",
+    "category": "Debt - Ultra Short Duration Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Ultra Short Term Debt Index",
+    "latest_nav": 5051.14,
+    "cagr_1y": 4.75,
+    "exp_ratio": 0.49
+  },
+  {
+    "scheme": "DSP Ultra Short Fund-Reg(G)",
+    "category": "Debt - Ultra Short Duration Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Ultra Short Term Debt Index",
+    "latest_nav": 2899.29,
+    "cagr_1y": 4.41,
+    "exp_ratio": 1.04
+  },
+  {
+    "scheme": "DSP Ultra Short Fund-Reg(W-IDCW)",
+    "category": "Debt - Ultra Short Duration Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Ultra Short Term Debt Index",
+    "latest_nav": 1005.05,
+    "cagr_1y": 4.41,
+    "exp_ratio": 1.04
+  },
+  {
+    "scheme": "Kotak Savings Fund(G)",
+    "category": "Debt - Ultra Short Duration Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Ultra Short Duration Debt Index",
+    "latest_nav": 36.38,
+    "cagr_1y": 4.74,
+    "exp_ratio": 0.81
+  },
+  {
+    "scheme": "Kotak Savings Fund(M-IDCW)",
+    "category": "Debt - Ultra Short Duration Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Ultra Short Duration Debt Index",
+    "latest_nav": 10.72,
+    "cagr_1y": 4.74,
+    "exp_ratio": 0.81
+  },
+  {
+    "scheme": "Canara Rob Emerg Equities Fund-Reg(G)",
+    "category": "Equity - Large & Mid Cap Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY LargeMidcap 250 - TRI",
+    "latest_nav": 160.64,
+    "cagr_1y": 15.38,
+    "exp_ratio": 1.71
+  },
+  {
+    "scheme": "Canara Rob Emerg Equities Fund-Reg(IDCW)",
+    "category": "Equity - Large & Mid Cap Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY LargeMidcap 250 - TRI",
+    "latest_nav": 60.67,
+    "cagr_1y": 15.37,
+    "exp_ratio": 1.71
+  },
+  {
+    "scheme": "Kotak Equity Opp Fund(IDCW)",
+    "category": "Equity - Large & Mid Cap Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY LargeMidcap 250 - TRI",
+    "latest_nav": 36.43,
+    "cagr_1y": 15.83,
+    "exp_ratio": 1.77
+  },
+  {
+    "scheme": "Kotak Equity Opp Fund(G)",
+    "category": "Equity - Large & Mid Cap Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY LargeMidcap 250 - TRI",
+    "latest_nav": 208.83,
+    "cagr_1y": 15.92,
+    "exp_ratio": 1.77
+  },
+  {
+    "scheme": "Mirae Asset Emerging Bluechip-Reg(G)",
+    "category": "Equity - Large & Mid Cap Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY LargeMidcap 250 - TRI",
+    "latest_nav": 95.41,
+    "cagr_1y": 17.43,
+    "exp_ratio": 1.63
+  },
+  {
+    "scheme": "Mirae Asset Emerging Bluechip-Reg(IDCW)",
+    "category": "Equity - Large & Mid Cap Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY LargeMidcap 250 - TRI",
+    "latest_nav": 37.3,
+    "cagr_1y": 17.43,
+    "exp_ratio": 1.63
+  },
+  {
+    "scheme": "DSP Equity Opportunities Fund-Reg(IDCW)",
+    "category": "Equity - Large & Mid Cap Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY LargeMidcap 250 - TRI",
+    "latest_nav": 29.8,
+    "cagr_1y": 14.6,
+    "exp_ratio": 1.86
+  },
+  {
+    "scheme": "DSP Equity Opportunities Fund-Reg(G)",
+    "category": "Equity - Large & Mid Cap Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY LargeMidcap 250 - TRI",
+    "latest_nav": 364.26,
+    "cagr_1y": 14.6,
+    "exp_ratio": 1.86
+  },
+  {
+    "scheme": "SBI Large & Midcap Fund-Reg(IDCW)",
+    "category": "Equity - Large & Mid Cap Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY LargeMidcap 250 - TRI",
+    "latest_nav": 176.54,
+    "cagr_1y": 17.72,
+    "exp_ratio": 1.79
+  },
+  {
+    "scheme": "SBI Large & Midcap Fund-Reg(G)",
+    "category": "Equity - Large & Mid Cap Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY LargeMidcap 250 - TRI",
+    "latest_nav": 390.76,
+    "cagr_1y": 17.71,
+    "exp_ratio": 1.79
+  },
+  {
+    "scheme": "DSP Midcap Fund-Reg(IDCW)",
+    "category": "Equity - Mid Cap Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Midcap 150 - TRI",
+    "latest_nav": 22.75,
+    "cagr_1y": 11.27,
+    "exp_ratio": 1.76
+  },
+  {
+    "scheme": "DSP Midcap Fund-Reg(G)",
+    "category": "Equity - Mid Cap Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Midcap 150 - TRI",
+    "latest_nav": 85.55,
+    "cagr_1y": 11.75,
+    "exp_ratio": 1.76
+  },
+  {
+    "scheme": "Franklin India Prima Fund(IDCW)",
+    "category": "Equity - Mid Cap Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Midcap 150 - TRI",
+    "latest_nav": 65.99,
+    "cagr_1y": 14.89,
+    "exp_ratio": 1.89
+  },
+  {
+    "scheme": "Franklin India Prima Fund(G)",
+    "category": "Equity - Mid Cap Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Midcap 150 - TRI",
+    "latest_nav": 1515.19,
+    "cagr_1y": 14.89,
+    "exp_ratio": 1.89
+  },
+  {
+    "scheme": "Kotak Emerging Equity Fund(IDCW)",
+    "category": "Equity - Mid Cap Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Midcap 150 - TRI",
+    "latest_nav": 42.07,
+    "cagr_1y": 20.37,
+    "exp_ratio": 1.69
+  },
+  {
+    "scheme": "Kotak Emerging Equity Fund(G)",
+    "category": "Equity - Mid Cap Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Midcap 150 - TRI",
+    "latest_nav": 76.6,
+    "cagr_1y": 20.37,
+    "exp_ratio": 1.69
+  },
+  {
+    "scheme": "Axis Midcap Fund-Reg(G)",
+    "category": "Equity - Mid Cap Fund",
+    "type": "Open ended",
+    "benchmark": "S&P BSE 150 MidCap - TRI",
+    "latest_nav": 66.75,
+    "cagr_1y": 16.01,
+    "exp_ratio": 1.78
+  },
+  {
+    "scheme": "Axis Midcap Fund-Reg(IDCW)",
+    "category": "Equity - Mid Cap Fund",
+    "type": "Open ended",
+    "benchmark": "S&P BSE 150 MidCap - TRI",
+    "latest_nav": 32.6,
+    "cagr_1y": 15.64,
+    "exp_ratio": 1.78
+  },
+  {
+    "scheme": "Invesco India Midcap Fund(IDCW)",
+    "category": "Equity - Mid Cap Fund",
+    "type": "Open ended",
+    "benchmark": "S&P BSE 150 MidCap - TRI",
+    "latest_nav": 33.42,
+    "cagr_1y": 17.54,
+    "exp_ratio": 2.03
+  },
+  {
+    "scheme": "Invesco India Midcap Fund(G)",
+    "category": "Equity - Mid Cap Fund",
+    "type": "Open ended",
+    "benchmark": "S&P BSE 150 MidCap - TRI",
+    "latest_nav": 88.4,
+    "cagr_1y": 17.53,
+    "exp_ratio": 2.03
+  },
+  {
+    "scheme": "PGIM India Emerging Markets Equity Fund(G)",
+    "category": "FoFs (Overseas)",
+    "type": "Open ended",
+    "benchmark": "MSCI EMU Index",
+    "latest_nav": 11.89,
+    "cagr_1y": -7.16,
+    "exp_ratio": 2.38
+  },
+  {
+    "scheme": "Motilal Oswal Nasdaq 100 FOF-Reg(G)",
+    "category": "FoFs (Overseas)",
+    "type": "Open ended",
+    "benchmark": "Nasdaq-100",
+    "latest_nav": 21.37,
+    "cagr_1y": 13.71,
+    "exp_ratio": 0.5
+  },
+  {
+    "scheme": "Sundaram Global Brand Fund(IDCW)",
+    "category": "FoFs (Overseas)",
+    "type": "Open ended",
+    "benchmark": "MSCI AC World Index",
+    "latest_nav": 21.05,
+    "cagr_1y": 9.47,
+    "exp_ratio": 2.32
+  },
+  {
+    "scheme": "Sundaram Global Brand Fund(G)",
+    "category": "FoFs (Overseas)",
+    "type": "Open ended",
+    "benchmark": "MSCI AC World Index",
+    "latest_nav": 24.56,
+    "cagr_1y": 9.49,
+    "exp_ratio": 2.32
+  },
+  {
+    "scheme": "Aditya Birla SL Global Excellence Equity FoF(G)",
+    "category": "FoFs (Overseas)",
+    "type": "Open ended",
+    "benchmark": "MSCI World",
+    "latest_nav": 22.08,
+    "cagr_1y": 0.37,
+    "exp_ratio": 1.24
+  },
+  {
+    "scheme": "HSBC Global Emerging Markets Fund(G)",
+    "category": "FoFs (Overseas)",
+    "type": "Open ended",
+    "benchmark": "MSCI Emerging Market Index",
+    "latest_nav": 17.16,
+    "cagr_1y": 3.2,
+    "exp_ratio": 2.41
+  },
+  {
+    "scheme": "HSBC Global Emerging Markets Fund(IDCW)",
+    "category": "FoFs (Overseas)",
+    "type": "Open ended",
+    "benchmark": "MSCI Emerging Market Index",
+    "latest_nav": 15.26,
+    "cagr_1y": 3.2,
+    "exp_ratio": 2.41
+  },
+  {
+    "scheme": "Aditya Birla SL Global Emerging Opp Fund(G)",
+    "category": "FoFs (Overseas)",
+    "type": "Open ended",
+    "benchmark": "MSCI AC World Index",
+    "latest_nav": 19.61,
+    "cagr_1y": 10.17,
+    "exp_ratio": 1.1
+  },
+  {
+    "scheme": "DSP World Energy Fund-Reg(G)",
+    "category": "FoFs (Overseas)",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 17.6,
+    "cagr_1y": 9.92,
+    "exp_ratio": 2.12
+  },
+  {
+    "scheme": "DSP World Energy Fund-Reg(IDCW)",
+    "category": "FoFs (Overseas)",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 13.56,
+    "cagr_1y": 9.92,
+    "exp_ratio": 2.12
+  },
+  {
+    "scheme": "Franklin India Focused Equity Fund(IDCW)",
+    "category": "Equity - Focused Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 29.95,
+    "cagr_1y": 18.42,
+    "exp_ratio": 1.87
+  },
+  {
+    "scheme": "Franklin India Focused Equity Fund(G)",
+    "category": "Equity - Focused Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 70.25,
+    "cagr_1y": 18.42,
+    "exp_ratio": 1.87
+  },
+  {
+    "scheme": "Axis Focused 25 Fund-Reg(G)",
+    "category": "Equity - Focused Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 38.27,
+    "cagr_1y": 5.42,
+    "exp_ratio": 1.82
+  },
+  {
+    "scheme": "Axis Focused 25 Fund-Reg(IDCW)",
+    "category": "Equity - Focused Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 18.26,
+    "cagr_1y": 5.04,
+    "exp_ratio": 1.82
+  },
+  {
+    "scheme": "SBI Focused Equity Fund-Reg(IDCW)",
+    "category": "Equity - Focused Fund",
+    "type": "Open ended",
+    "benchmark": "S&P BSE 500 - TRI",
+    "latest_nav": 40.61,
+    "cagr_1y": 10.97,
+    "exp_ratio": 1.6
+  },
+  {
+    "scheme": "SBI Focused Equity Fund-Reg(G)",
+    "category": "Equity - Focused Fund",
+    "type": "Open ended",
+    "benchmark": "S&P BSE 500 - TRI",
+    "latest_nav": 222.04,
+    "cagr_1y": 10.97,
+    "exp_ratio": 1.6
+  },
+  {
+    "scheme": "IIFL Focused Equity Fund-Reg(G)",
+    "category": "Equity - Focused Fund",
+    "type": "Open ended",
+    "benchmark": "S&P BSE 500 - TRI",
+    "latest_nav": 30.87,
+    "cagr_1y": 16.79,
+    "exp_ratio": 1.92
+  },
+  {
+    "scheme": "IIFL Focused Equity Fund-Reg(IDCW)",
+    "category": "Equity - Focused Fund",
+    "type": "Open ended",
+    "benchmark": "S&P BSE 500 - TRI",
+    "latest_nav": 27.31,
+    "cagr_1y": 16.79,
+    "exp_ratio": 1.92
+  },
+  {
+    "scheme": "Aditya Birla SL Focused Equity Fund(IDCW)",
+    "category": "Equity - Focused Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 19.32,
+    "cagr_1y": 12.58,
+    "exp_ratio": 1.97
+  },
+  {
+    "scheme": "Aditya Birla SL Focused Equity Fund(G)",
+    "category": "Equity - Focused Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 91.96,
+    "cagr_1y": 12.58,
+    "exp_ratio": 1.97
+  },
+  {
+    "scheme": "IDFC Bond Fund - Short Term Plan-Reg(FN-IDCW)",
+    "category": "Debt - Short Duration Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Short Duration Debt Index",
+    "latest_nav": 10.43,
+    "cagr_1y": 2.86,
+    "exp_ratio": 0.77
+  },
+  {
+    "scheme": "IDFC Bond Fund - Short Term Plan-Reg(G)",
+    "category": "Debt - Short Duration Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Short Duration Debt Index",
+    "latest_nav": 47.7,
+    "cagr_1y": 2.89,
+    "exp_ratio": 0.77
+  },
+  {
+    "scheme": "IDFC Bond Fund - Short Term Plan-Reg(M-IDCW)",
+    "category": "Debt - Short Duration Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Short Duration Debt Index",
+    "latest_nav": 10.38,
+    "cagr_1y": 2.89,
+    "exp_ratio": 0.77
+  },
+  {
+    "scheme": "HDFC Short Term Debt Fund(G)",
+    "category": "Debt - Short Duration Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Corporate Bond Index",
+    "latest_nav": 26.58,
+    "cagr_1y": 3.81,
+    "exp_ratio": 0.78
+  },
+  {
+    "scheme": "HDFC Short Term Debt Fund(FN-IDCW)",
+    "category": "Debt - Short Duration Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Corporate Bond Index",
+    "latest_nav": 10.21,
+    "cagr_1y": 3.82,
+    "exp_ratio": 0.78
+  },
+  {
+    "scheme": "DSP Short Term Fund-Reg(IDCW)",
+    "category": "Debt - Short Duration Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Corporate Bond Index",
+    "latest_nav": 12.22,
+    "cagr_1y": 3.16,
+    "exp_ratio": 0.96
+  },
+  {
+    "scheme": "DSP Short Term Fund-Reg(G)",
+    "category": "Debt - Short Duration Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Corporate Bond Index",
+    "latest_nav": 39.11,
+    "cagr_1y": 3.16,
+    "exp_ratio": 0.96
+  },
+  {
+    "scheme": "DSP Short Term Fund-Reg(M-IDCW Reinv)",
+    "category": "Debt - Short Duration Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Corporate Bond Index",
+    "latest_nav": 11.45,
+    "cagr_1y": 3.16,
+    "exp_ratio": 1.2
+  },
+  {
+    "scheme": "Kotak Bond Short Term Fund(G)",
+    "category": "Debt - Short Duration Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Short Duration Debt Index",
+    "latest_nav": 43.75,
+    "cagr_1y": 2.99,
+    "exp_ratio": 1.16
+  },
+  {
+    "scheme": "SBI Short Term Debt Fund-Reg(FN-IDCW)",
+    "category": "Debt - Short Duration Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Corporate Bond Index",
+    "latest_nav": 12.18,
+    "cagr_1y": 3.6,
+    "exp_ratio": 0.84
+  },
+  {
+    "scheme": "HDFC Flexi Cap Fund(IDCW)",
+    "category": "Equity - Flexi Cap Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 61.37,
+    "cagr_1y": 19.68,
+    "exp_ratio": 1.77
+  },
+  {
+    "scheme": "HDFC Flexi Cap Fund(G)",
+    "category": "Equity - Flexi Cap Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 1152.57,
+    "cagr_1y": 20.31,
+    "exp_ratio": 1.77
+  },
+  {
+    "scheme": "Parag Parikh Flexi Cap Fund-Reg(G)",
+    "category": "Equity - Flexi Cap Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 49.5,
+    "cagr_1y": 20.74,
+    "exp_ratio": 1.67
+  },
+  {
+    "scheme": "Canara Rob Flexi Cap Fund-Reg(G)",
+    "category": "Equity - Flexi Cap Fund",
+    "type": "Open ended",
+    "benchmark": "S&P BSE 500 - TRI",
+    "latest_nav": 224.89,
+    "cagr_1y": 14.29,
+    "exp_ratio": 1.77
+  },
+  {
+    "scheme": "Canara Rob Flexi Cap Fund-Reg(IDCW)",
+    "category": "Equity - Flexi Cap Fund",
+    "type": "Open ended",
+    "benchmark": "S&P BSE 500 - TRI",
+    "latest_nav": 45.86,
+    "cagr_1y": 13.92,
+    "exp_ratio": 1.77
+  },
+  {
+    "scheme": "UTI Flexi Cap Fund-Reg(IDCW)",
+    "category": "Equity - Flexi Cap Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 151.95,
+    "cagr_1y": 12.42,
+    "exp_ratio": 1.69
+  },
+  {
+    "scheme": "UTI Flexi Cap Fund-Reg(G)",
+    "category": "Equity - Flexi Cap Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 229.83,
+    "cagr_1y": 12.42,
+    "exp_ratio": 1.69
+  },
+  {
+    "scheme": "PGIM India Flexi Cap Fund-Reg(G)",
+    "category": "Equity - Flexi Cap Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 25.16,
+    "cagr_1y": 19.84,
+    "exp_ratio": 1.94
+  },
+  {
+    "scheme": "PGIM India Flexi Cap Fund-Reg(IDCW)",
+    "category": "Equity - Flexi Cap Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 17.59,
+    "cagr_1y": 19.85,
+    "exp_ratio": 1.94
+  },
+  {
+    "scheme": "Axis Flexi Cap Fund-Reg(G)",
+    "category": "Equity - Flexi Cap Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 17.53,
+    "cagr_1y": 9.6,
+    "exp_ratio": 1.82
+  },
+  {
+    "scheme": "HDFC Index Fund-NIFTY 50 Plan(G)",
+    "category": "Index Funds - Nifty",
+    "type": "Open ended",
+    "benchmark": "NIFTY 50 - TRI",
+    "latest_nav": 167.62,
+    "cagr_1y": 14.8,
+    "exp_ratio": 0.4
+  },
+  {
+    "scheme": "ICICI Pru Nifty 50 Index Fund(G)",
+    "category": "Index Funds - Nifty",
+    "type": "Open ended",
+    "benchmark": "NIFTY 50 - TRI",
+    "latest_nav": 177.86,
+    "cagr_1y": 14.78,
+    "exp_ratio": 0.35
+  },
+  {
+    "scheme": "UTI Nifty 50 Index Fund-Reg(G)",
+    "category": "Index Funds - Nifty",
+    "type": "Open ended",
+    "benchmark": "NIFTY 50 - TRI",
+    "latest_nav": 121.26,
+    "cagr_1y": 15.03,
+    "exp_ratio": 0.3
+  },
+  {
+    "scheme": "UTI Nifty 50 Index Fund-Reg(IDCW)",
+    "category": "Index Funds - Nifty",
+    "type": "Open ended",
+    "benchmark": "NIFTY 50 - TRI",
+    "latest_nav": 61.09,
+    "cagr_1y": 15.03,
+    "exp_ratio": 0.3
+  },
+  {
+    "scheme": "SBI Nifty Index Fund-Reg(IDCW)",
+    "category": "Index Funds - Nifty",
+    "type": "Open ended",
+    "benchmark": "NIFTY 50 - TRI",
+    "latest_nav": 80.34,
+    "cagr_1y": 14.56,
+    "exp_ratio": 0.5
+  },
+  {
+    "scheme": "SBI Nifty Index Fund-Reg(G)",
+    "category": "Index Funds - Nifty",
+    "type": "Open ended",
+    "benchmark": "NIFTY 50 - TRI",
+    "latest_nav": 156.58,
+    "cagr_1y": 14.52,
+    "exp_ratio": 0.5
+  },
+  {
+    "scheme": "Aditya Birla SL Nifty 50 Index Fund-Reg(IDCW-Reinv)",
+    "category": "Index Funds - Nifty",
+    "type": "Open ended",
+    "benchmark": "NIFTY 50 - TRI",
+    "latest_nav": 18.33,
+    "cagr_1y": 14.65,
+    "exp_ratio": 0.6
+  },
+  {
+    "scheme": "Aditya Birla SL Nifty 50 Index Fund-Reg(G)",
+    "category": "Index Funds - Nifty",
+    "type": "Open ended",
+    "benchmark": "NIFTY 50 - TRI",
+    "latest_nav": 179.39,
+    "cagr_1y": 14.67,
+    "exp_ratio": 0.6
+  },
+  {
+    "scheme": "Franklin India NSE Nifty 50 Index Fund(IDCW)",
+    "category": "Index Funds - Nifty",
+    "type": "Open ended",
+    "benchmark": "NIFTY 50 - TRI",
+    "latest_nav": 143.46,
+    "cagr_1y": 14.37,
+    "exp_ratio": 0.66
+  },
+  {
+    "scheme": "Franklin India NSE Nifty 50 Index Fund(G)",
+    "category": "Index Funds - Nifty",
+    "type": "Open ended",
+    "benchmark": "NIFTY 50 - TRI",
+    "latest_nav": 143.46,
+    "cagr_1y": 14.37,
+    "exp_ratio": 0.66
+  },
+  {
+    "scheme": "HDFC Index Fund-S&P BSE Sensex(G)",
+    "category": "Index Funds - Sensex",
+    "type": "Open ended",
+    "benchmark": "S&P BSE SENSEX - TRI",
+    "latest_nav": 555.47,
+    "cagr_1y": 14.8,
+    "exp_ratio": 0.4
+  },
+  {
+    "scheme": "ICICI Pru S&P BSE Sensex Index Fund(G)",
+    "category": "Index Funds - Sensex",
+    "type": "Open ended",
+    "benchmark": "S&P BSE SENSEX - TRI",
+    "latest_nav": 19.57,
+    "cagr_1y": 15.09,
+    "exp_ratio": 0.27
+  },
+  {
+    "scheme": "ICICI Pru S&P BSE Sensex Index Fund(IDCW)",
+    "category": "Index Funds - Sensex",
+    "type": "Open ended",
+    "benchmark": "S&P BSE SENSEX - TRI",
+    "latest_nav": 19.57,
+    "cagr_1y": 15.09,
+    "exp_ratio": 0.27
+  },
+  {
+    "scheme": "LIC MF S&P BSE Sensex Index Fund(IDCW)",
+    "category": "Index Funds - Sensex",
+    "type": "Open ended",
+    "benchmark": "S&P BSE SENSEX - TRI",
+    "latest_nav": 39.13,
+    "cagr_1y": 14.22,
+    "exp_ratio": 1.08
+  },
+  {
+    "scheme": "LIC MF S&P BSE Sensex Index Fund(G)",
+    "category": "Index Funds - Sensex",
+    "type": "Open ended",
+    "benchmark": "S&P BSE SENSEX - TRI",
+    "latest_nav": 114.17,
+    "cagr_1y": 14.22,
+    "exp_ratio": 1.08
+  },
+  {
+    "scheme": "Tata S&P BSE Sensex Index Fund-Reg(G)",
+    "category": "Index Funds - Sensex",
+    "type": "Open ended",
+    "benchmark": "S&P BSE SENSEX - TRI",
+    "latest_nav": 151.54,
+    "cagr_1y": 14.17,
+    "exp_ratio": 0.58
+  },
+  {
+    "scheme": "Nippon India Index Fund-S&P BSE Sensex Plan(G)",
+    "category": "Index Funds - Sensex",
+    "type": "Open ended",
+    "benchmark": "S&P BSE SENSEX - TRI",
+    "latest_nav": 30.65,
+    "cagr_1y": 14.74,
+    "exp_ratio": 0.81
+  },
+  {
+    "scheme": "Nippon India Index Fund-S&P BSE Sensex Plan(Q-IDCW)",
+    "category": "Index Funds - Sensex",
+    "type": "Open ended",
+    "benchmark": "S&P BSE SENSEX - TRI",
+    "latest_nav": 24.16,
+    "cagr_1y": 14.39,
+    "exp_ratio": 0.81
+  },
+  {
+    "scheme": "Nippon India Index Fund-S&P BSE Sensex Plan(H-IDCW)",
+    "category": "Index Funds - Sensex",
+    "type": "Open ended",
+    "benchmark": "S&P BSE SENSEX - TRI",
+    "latest_nav": 24.16,
+    "cagr_1y": 14.39,
+    "exp_ratio": 0.81
+  },
+  {
+    "scheme": "Nippon India Index Fund-S&P BSE Sensex Plan(A-IDCW)",
+    "category": "Index Funds - Sensex",
+    "type": "Open ended",
+    "benchmark": "S&P BSE SENSEX - TRI",
+    "latest_nav": 24.16,
+    "cagr_1y": 14.38,
+    "exp_ratio": 0.81
+  },
+  {
+    "scheme": "ICICI Pru Balanced Advantage Fund(IDCW)",
+    "category": "Hybrid - Balanced Advantage",
+    "type": "Open ended",
+    "benchmark": "CRISIL Hybrid 50+50 - Moderate Index",
+    "latest_nav": 16.52,
+    "cagr_1y": 11.42,
+    "exp_ratio": 1.56
+  },
+  {
+    "scheme": "ICICI Pru Balanced Advantage Fund(G)",
+    "category": "Hybrid - Balanced Advantage",
+    "type": "Open ended",
+    "benchmark": "CRISIL Hybrid 50+50 - Moderate Index",
+    "latest_nav": 53.02,
+    "cagr_1y": 11.28,
+    "exp_ratio": 1.56
+  },
+  {
+    "scheme": "Kotak Balanced Advantage Fund-Reg(G)",
+    "category": "Hybrid - Balanced Advantage",
+    "type": "Open ended",
+    "benchmark": "NIFTY 50 Hybrid Composite Debt 50:50 Index",
+    "latest_nav": 15.17,
+    "cagr_1y": 9.98,
+    "exp_ratio": 1.68
+  },
+  {
+    "scheme": "Kotak Balanced Advantage Fund-Reg(IDCW)",
+    "category": "Hybrid - Balanced Advantage",
+    "type": "Open ended",
+    "benchmark": "NIFTY 50 Hybrid Composite Debt 50:50 Index",
+    "latest_nav": 15.17,
+    "cagr_1y": 9.98,
+    "exp_ratio": 1.68
+  },
+  {
+    "scheme": "HDFC Balanced Advantage Fund(IDCW)",
+    "category": "Hybrid - Balanced Advantage",
+    "type": "Open ended",
+    "benchmark": "NIFTY 50 Hybrid Composite Debt 50:50 Index",
+    "latest_nav": 30.01,
+    "cagr_1y": 17.67,
+    "exp_ratio": 1.65
+  },
+  {
+    "scheme": "HDFC Balanced Advantage Fund(G)",
+    "category": "Hybrid - Balanced Advantage",
+    "type": "Open ended",
+    "benchmark": "NIFTY 50 Hybrid Composite Debt 50:50 Index",
+    "latest_nav": 325.7,
+    "cagr_1y": 17.82,
+    "exp_ratio": 1.65
+  },
+  {
+    "scheme": "Aditya Birla SL Balanced Advantage Fund(IDCW-Payout)",
+    "category": "Hybrid - Balanced Advantage",
+    "type": "Open ended",
+    "benchmark": "CRISIL Hybrid 50+50 - Moderate Index",
+    "latest_nav": 22.68,
+    "cagr_1y": 10.47,
+    "exp_ratio": 1.79
+  },
+  {
+    "scheme": "Aditya Birla SL Balanced Advantage Fund(G)",
+    "category": "Hybrid - Balanced Advantage",
+    "type": "Open ended",
+    "benchmark": "CRISIL Hybrid 50+50 - Moderate Index",
+    "latest_nav": 75.77,
+    "cagr_1y": 10.51,
+    "exp_ratio": 1.79
+  },
+  {
+    "scheme": "Nippon India Balanced Advantage Fund(IDCW)",
+    "category": "Hybrid - Balanced Advantage",
+    "type": "Open ended",
+    "benchmark": "CRISIL Hybrid 50+50 - Moderate Index",
+    "latest_nav": 28.23,
+    "cagr_1y": 9.61,
+    "exp_ratio": 1.83
+  },
+  {
+    "scheme": "Nippon India Balanced Advantage Fund(B)",
+    "category": "Hybrid - Balanced Advantage",
+    "type": "Open ended",
+    "benchmark": "CRISIL Hybrid 50+50 - Moderate Index",
+    "latest_nav": 126.65,
+    "cagr_1y": 9.68,
+    "exp_ratio": 1.83
+  },
+  {
+    "scheme": "ICICI Pru Value Discovery Fund(IDCW)",
+    "category": "Equity - Value Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 33.12,
+    "cagr_1y": 25.12,
+    "exp_ratio": 1.74
+  },
+  {
+    "scheme": "ICICI Pru Value Discovery Fund(G)",
+    "category": "Equity - Value Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 281.36,
+    "cagr_1y": 25.48,
+    "exp_ratio": 1.74
+  },
+  {
+    "scheme": "UTI Value Opp Fund-Reg(IDCW)",
+    "category": "Equity - Value Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 30.33,
+    "cagr_1y": 16.01,
+    "exp_ratio": 1.91
+  },
+  {
+    "scheme": "UTI Value Opp Fund-Reg(G)",
+    "category": "Equity - Value Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 104.07,
+    "cagr_1y": 16.01,
+    "exp_ratio": 1.91
+  },
+  {
+    "scheme": "IDFC Sterling Value Fund-Reg(G)",
+    "category": "Equity - Value Fund",
+    "type": "Open ended",
+    "benchmark": "S&P BSE 500 - TRI",
+    "latest_nav": 93.54,
+    "cagr_1y": 23.35,
+    "exp_ratio": 1.91
+  },
+  {
+    "scheme": "IDFC Sterling Value Fund-Reg(IDCW)",
+    "category": "Equity - Value Fund",
+    "type": "Open ended",
+    "benchmark": "S&P BSE 500 - TRI",
+    "latest_nav": 30.56,
+    "cagr_1y": 23.02,
+    "exp_ratio": 1.91
+  },
+  {
+    "scheme": "Nippon India Value Fund(G)",
+    "category": "Equity - Value Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 125.57,
+    "cagr_1y": 17.91,
+    "exp_ratio": 1.94
+  },
+  {
+    "scheme": "Nippon India Value Fund(IDCW)",
+    "category": "Equity - Value Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 31.73,
+    "cagr_1y": 17.52,
+    "exp_ratio": 1.94
+  },
+  {
+    "scheme": "HSBC Value Fund-Reg(G)",
+    "category": "Equity - Value Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 61.45,
+    "cagr_1y": 18.17,
+    "exp_ratio": 1.84
+  },
+  {
+    "scheme": "HSBC Value Fund-Reg(IDCW)",
+    "category": "Equity - Value Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 35.34,
+    "cagr_1y": 18.19,
+    "exp_ratio": 1.84
+  },
+  {
+    "scheme": "ICICI Pru Savings Fund(G)",
+    "category": "Debt - Low Duration Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Low Duration Debt Index",
+    "latest_nav": 452.95,
+    "cagr_1y": 4.89,
+    "exp_ratio": 0.49
+  },
+  {
+    "scheme": "ICICI Pru Savings Fund(W-IDCW)",
+    "category": "Debt - Low Duration Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Low Duration Debt Index",
+    "latest_nav": 105.55,
+    "cagr_1y": 4.89,
+    "exp_ratio": 0.49
+  },
+  {
+    "scheme": "ICICI Pru Savings Fund(DD-IDCW)",
+    "category": "Debt - Low Duration Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Low Duration Debt Index",
+    "latest_nav": 105.74,
+    "cagr_1y": 4.87,
+    "exp_ratio": 0.49
+  },
+  {
+    "scheme": "IDFC Low Duration Fund-Reg(DD-IDCW)",
+    "category": "Debt - Low Duration Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Low Duration Debt Index",
+    "latest_nav": 10.1,
+    "cagr_1y": 4.32,
+    "exp_ratio": 0.57
+  },
+  {
+    "scheme": "IDFC Low Duration Fund-Reg(G)",
+    "category": "Debt - Low Duration Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Low Duration Debt Index",
+    "latest_nav": 32.57,
+    "cagr_1y": 4.3,
+    "exp_ratio": 0.57
+  },
+  {
+    "scheme": "IDFC Low Duration Fund-Reg(M-IDCW)",
+    "category": "Debt - Low Duration Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Low Duration Debt Index",
+    "latest_nav": 10.13,
+    "cagr_1y": 4.3,
+    "exp_ratio": 0.57
+  },
+  {
+    "scheme": "IDFC Low Duration Fund-Reg(W-IDCW)",
+    "category": "Debt - Low Duration Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Low Duration Debt Index",
+    "latest_nav": 10.12,
+    "cagr_1y": 4.3,
+    "exp_ratio": 0.57
+  },
+  {
+    "scheme": "DSP Low Duration Fund-Reg(G)",
+    "category": "Debt - Low Duration Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Low Duration Debt Index",
+    "latest_nav": 16.74,
+    "cagr_1y": 4.47,
+    "exp_ratio": 0.62
+  },
+  {
+    "scheme": "DSP Low Duration Fund-Reg(W-IDCW)",
+    "category": "Debt - Low Duration Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Low Duration Debt Index",
+    "latest_nav": 10.13,
+    "cagr_1y": 4.47,
+    "exp_ratio": 0.62
+  },
+  {
+    "scheme": "ICICI Pru Savings Fund(M-IDCW)",
+    "category": "Debt - Low Duration Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Low Duration Debt Index",
+    "latest_nav": 102.06,
+    "cagr_1y": 4.89,
+    "exp_ratio": 0.49
+  },
+  {
+    "scheme": "Kotak Equity Hybrid Fund(IDCW)",
+    "category": "Hybrid - Aggressive Hybrid Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY 50 Hybrid Composite Debt 65:35 Index",
+    "latest_nav": 24.56,
+    "cagr_1y": 15.21,
+    "exp_ratio": 1.98
+  },
+  {
+    "scheme": "Kotak Equity Hybrid Fund(G)",
+    "category": "Hybrid - Aggressive Hybrid Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY 50 Hybrid Composite Debt 65:35 Index",
+    "latest_nav": 41.8,
+    "cagr_1y": 15.21,
+    "exp_ratio": 1.98
+  },
+  {
+    "scheme": "Mirae Asset Hybrid Equity Fund-Reg(G)",
+    "category": "Hybrid - Aggressive Hybrid Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Hybrid 35+65 - Aggressive Index",
+    "latest_nav": 22.4,
+    "cagr_1y": 12.66,
+    "exp_ratio": 1.77
+  },
+  {
+    "scheme": "Mirae Asset Hybrid Equity Fund-Reg(IDCW)",
+    "category": "Hybrid - Aggressive Hybrid Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Hybrid 35+65 - Aggressive Index",
+    "latest_nav": 14.32,
+    "cagr_1y": 12.66,
+    "exp_ratio": 1.77
+  },
+  {
+    "scheme": "Canara Rob Equity Hybrid Fund-Reg(G)",
+    "category": "Hybrid - Aggressive Hybrid Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Hybrid 35+65 - Aggressive Index",
+    "latest_nav": 250.21,
+    "cagr_1y": 12.46,
+    "exp_ratio": 1.77
+  },
+  {
+    "scheme": "Canara Rob Equity Hybrid Fund-Reg(M-IDCW)",
+    "category": "Hybrid - Aggressive Hybrid Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Hybrid 35+65 - Aggressive Index",
+    "latest_nav": 84.96,
+    "cagr_1y": 12.33,
+    "exp_ratio": 1.77
+  },
+  {
+    "scheme": "ICICI Pru Equity & Debt Fund(G)",
+    "category": "Hybrid - Aggressive Hybrid Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Hybrid 35+65 - Aggressive Index",
+    "latest_nav": 243.26,
+    "cagr_1y": 20.29,
+    "exp_ratio": 1.76
+  },
+  {
+    "scheme": "SBI Equity Hybrid Fund-Reg(IDCW)",
+    "category": "Hybrid - Aggressive Hybrid Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Hybrid 35+65 - Aggressive Index",
+    "latest_nav": 43.05,
+    "cagr_1y": 10.47,
+    "exp_ratio": 1.45
+  },
+  {
+    "scheme": "SBI Equity Hybrid Fund-Reg(G)",
+    "category": "Hybrid - Aggressive Hybrid Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Hybrid 35+65 - Aggressive Index",
+    "latest_nav": 203.17,
+    "cagr_1y": 10.47,
+    "exp_ratio": 1.45
+  },
+  {
+    "scheme": "ICICI Pru Equity & Debt Fund(A-IDCW)",
+    "category": "Hybrid - Aggressive Hybrid Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Hybrid 35+65 - Aggressive Index",
+    "latest_nav": 20.1,
+    "cagr_1y": 20.29,
+    "exp_ratio": 1.76
+  },
+  {
+    "scheme": "Kotak Equity Arbitrage Fund(M-IDCW)",
+    "category": "Hybrid - Arbitrage Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty 50 Arbitrage",
+    "latest_nav": 10.76,
+    "cagr_1y": 4.26,
+    "exp_ratio": 1.01
+  },
+  {
+    "scheme": "Kotak Equity Arbitrage Fund(G)",
+    "category": "Hybrid - Arbitrage Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty 50 Arbitrage",
+    "latest_nav": 31.56,
+    "cagr_1y": 4.31,
+    "exp_ratio": 1.01
+  },
+  {
+    "scheme": "Edelweiss Arbitrage Fund-Reg(G)",
+    "category": "Hybrid - Arbitrage Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty 50 Arbitrage",
+    "latest_nav": 16.39,
+    "cagr_1y": 4.26,
+    "exp_ratio": 1.08
+  },
+  {
+    "scheme": "Edelweiss Arbitrage Fund-Reg(IDCW)",
+    "category": "Hybrid - Arbitrage Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty 50 Arbitrage",
+    "latest_nav": 12.02,
+    "cagr_1y": 4.18,
+    "exp_ratio": 1.08
+  },
+  {
+    "scheme": "Edelweiss Arbitrage Fund-Reg(M-IDCW)",
+    "category": "Hybrid - Arbitrage Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty 50 Arbitrage",
+    "latest_nav": 13.39,
+    "cagr_1y": 4.1,
+    "exp_ratio": 1.08
+  },
+  {
+    "scheme": "ICICI Pru Equity-Arbitrage Fund(IDCW)",
+    "category": "Hybrid - Arbitrage Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty 50 Arbitrage",
+    "latest_nav": 14.08,
+    "cagr_1y": 4.12,
+    "exp_ratio": 0.99
+  },
+  {
+    "scheme": "ICICI Pru Equity-Arbitrage Fund(G)",
+    "category": "Hybrid - Arbitrage Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty 50 Arbitrage",
+    "latest_nav": 29.01,
+    "cagr_1y": 4.13,
+    "exp_ratio": 0.99
+  },
+  {
+    "scheme": "Invesco India Arbitrage Fund(IDCW)",
+    "category": "Hybrid - Arbitrage Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty 50 Arbitrage",
+    "latest_nav": 14.39,
+    "cagr_1y": 4.32,
+    "exp_ratio": 1.05
+  },
+  {
+    "scheme": "Invesco India Arbitrage Fund(G)",
+    "category": "Hybrid - Arbitrage Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty 50 Arbitrage",
+    "latest_nav": 26.96,
+    "cagr_1y": 4.34,
+    "exp_ratio": 1.05
+  },
+  {
+    "scheme": "UTI Arbitrage Fund-Reg(IDCW)",
+    "category": "Hybrid - Arbitrage Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty 50 Arbitrage",
+    "latest_nav": 16.72,
+    "cagr_1y": 4.06,
+    "exp_ratio": 0.93
+  },
+  {
+    "scheme": "Kotak Small Cap Fund(IDCW)",
+    "category": "Equity - Small cap Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Smallcap 250 - TRI",
+    "latest_nav": 70.81,
+    "cagr_1y": 25.61,
+    "exp_ratio": 1.87
+  },
+  {
+    "scheme": "Kotak Small Cap Fund(G)",
+    "category": "Equity - Small cap Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Smallcap 250 - TRI",
+    "latest_nav": 162.32,
+    "cagr_1y": 26.02,
+    "exp_ratio": 1.87
+  },
+  {
+    "scheme": "ICICI Pru Smallcap Fund(IDCW)",
+    "category": "Equity - Small cap Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Smallcap 250 - TRI",
+    "latest_nav": 25.86,
+    "cagr_1y": 24.21,
+    "exp_ratio": 2.0
+  },
+  {
+    "scheme": "ICICI Pru Smallcap Fund(G)",
+    "category": "Equity - Small cap Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Smallcap 250 - TRI",
+    "latest_nav": 53.23,
+    "cagr_1y": 24.21,
+    "exp_ratio": 2.0
+  },
+  {
+    "scheme": "Nippon India Small Cap Fund(G)",
+    "category": "Equity - Small cap Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Smallcap 250 - TRI",
+    "latest_nav": 92.59,
+    "cagr_1y": 30.24,
+    "exp_ratio": 1.76
+  },
+  {
+    "scheme": "Nippon India Small Cap Fund(IDCW)",
+    "category": "Equity - Small cap Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Smallcap 250 - TRI",
+    "latest_nav": 58.34,
+    "cagr_1y": 30.24,
+    "exp_ratio": 1.76
+  },
+  {
+    "scheme": "Axis Small Cap Fund-Reg(G)",
+    "category": "Equity - Small cap Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Smallcap 250 - TRI",
+    "latest_nav": 63.58,
+    "cagr_1y": 21.52,
+    "exp_ratio": 1.92
+  },
+  {
+    "scheme": "Axis Small Cap Fund-Reg(IDCW)",
+    "category": "Equity - Small cap Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Smallcap 250 - TRI",
+    "latest_nav": 36.16,
+    "cagr_1y": 21.06,
+    "exp_ratio": 1.92
+  },
+  {
+    "scheme": "DSP Small Cap Fund-Reg(G)",
+    "category": "Equity - Small cap Fund",
+    "type": "Open ended",
+    "benchmark": "S&P BSE 250 Small Cap - TRI",
+    "latest_nav": 112.22,
+    "cagr_1y": 24.38,
+    "exp_ratio": 1.83
+  },
+  {
+    "scheme": "Quant Small Cap Fund(IDCW)",
+    "category": "Equity - Small cap Fund",
+    "type": "Open ended",
+    "benchmark": "Nifty Smallcap 250 - TRI",
+    "latest_nav": 113.5,
+    "cagr_1y": 46.81,
+    "exp_ratio": 2.67
+  },
+  {
+    "scheme": "Mirae Asset Large Cap Fund-Reg(G)",
+    "category": "Equity - Large Cap Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY 100 - TRI",
+    "latest_nav": 79.56,
+    "cagr_1y": 13.78,
+    "exp_ratio": 1.58
+  },
+  {
+    "scheme": "Mirae Asset Large Cap Fund-Reg(IDCW)",
+    "category": "Equity - Large Cap Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY 100 - TRI",
+    "latest_nav": 24.02,
+    "cagr_1y": 13.78,
+    "exp_ratio": 1.58
+  },
+  {
+    "scheme": "Axis Bluechip Fund-Reg(G)",
+    "category": "Equity - Large Cap Fund",
+    "type": "Open ended",
+    "benchmark": "S&P BSE 100 - TRI",
+    "latest_nav": 43.24,
+    "cagr_1y": 8.94,
+    "exp_ratio": 1.65
+  },
+  {
+    "scheme": "Axis Bluechip Fund-Reg(IDCW)",
+    "category": "Equity - Large Cap Fund",
+    "type": "Open ended",
+    "benchmark": "S&P BSE 100 - TRI",
+    "latest_nav": 17.43,
+    "cagr_1y": 8.55,
+    "exp_ratio": 1.65
+  },
+  {
+    "scheme": "SBI BlueChip Fund-Reg(IDCW)",
+    "category": "Equity - Large Cap Fund",
+    "type": "Open ended",
+    "benchmark": "S&P BSE 100 - TRI",
+    "latest_nav": 36.44,
+    "cagr_1y": 15.37,
+    "exp_ratio": 1.59
+  },
+  {
+    "scheme": "SBI BlueChip Fund-Reg(G)",
+    "category": "Equity - Large Cap Fund",
+    "type": "Open ended",
+    "benchmark": "S&P BSE 100 - TRI",
+    "latest_nav": 64.05,
+    "cagr_1y": 15.37,
+    "exp_ratio": 1.59
+  },
+  {
+    "scheme": "ICICI Pru Bluechip Fund(G)",
+    "category": "Equity - Large Cap Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY 100 - TRI",
+    "latest_nav": 69.51,
+    "cagr_1y": 16.09,
+    "exp_ratio": 1.67
+  },
+  {
+    "scheme": "ICICI Pru Bluechip Fund(IDCW)",
+    "category": "Equity - Large Cap Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY 100 - TRI",
+    "latest_nav": 24.12,
+    "cagr_1y": 16.08,
+    "exp_ratio": 1.67
+  },
+  {
+    "scheme": "Canara Rob Bluechip Equity Fund-Reg(G)",
+    "category": "Equity - Large Cap Fund",
+    "type": "Open ended",
+    "benchmark": "S&P BSE 100 - TRI",
+    "latest_nav": 42.06,
+    "cagr_1y": 14.05,
+    "exp_ratio": 1.78
+  },
+  {
+    "scheme": "Canara Rob Bluechip Equity Fund-Reg(IDCW)",
+    "category": "Equity - Large Cap Fund",
+    "type": "Open ended",
+    "benchmark": "S&P BSE 100 - TRI",
+    "latest_nav": 21.49,
+    "cagr_1y": 13.99,
+    "exp_ratio": 1.78
+  },
+  {
+    "scheme": "Aditya Birla SL Floating Rate Fund(G)",
+    "category": "Debt - Floater Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Low Duration Debt Index",
+    "latest_nav": 290.16,
+    "cagr_1y": 5.11,
+    "exp_ratio": 0.45
+  },
+  {
+    "scheme": "Aditya Birla SL Floating Rate Fund(W-IDCW)",
+    "category": "Debt - Floater Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Low Duration Debt Index",
+    "latest_nav": 100.18,
+    "cagr_1y": 5.08,
+    "exp_ratio": 0.45
+  },
+  {
+    "scheme": "Aditya Birla SL Floating Rate Fund(DD-IDCW)",
+    "category": "Debt - Floater Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Low Duration Debt Index",
+    "latest_nav": 100.0,
+    "cagr_1y": 5.04,
+    "exp_ratio": 0.45
+  },
+  {
+    "scheme": "ICICI Pru Floating Interest Fund(DD-IDCW)",
+    "category": "Debt - Floater Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Low Duration Debt Index",
+    "latest_nav": 100.88,
+    "cagr_1y": 4.58,
+    "exp_ratio": 1.28
+  },
+  {
+    "scheme": "ICICI Pru Floating Interest Fund(G)",
+    "category": "Debt - Floater Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Low Duration Debt Index",
+    "latest_nav": 352.62,
+    "cagr_1y": 4.65,
+    "exp_ratio": 1.28
+  },
+  {
+    "scheme": "HDFC Floating Rate Debt Fund(DD-IDCW)",
+    "category": "Debt - Floater Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Low Duration Debt Index",
+    "latest_nav": 10.08,
+    "cagr_1y": 4.75,
+    "exp_ratio": 0.48
+  },
+  {
+    "scheme": "HDFC Floating Rate Debt Fund(W-IDCW)",
+    "category": "Debt - Floater Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Low Duration Debt Index",
+    "latest_nav": 10.05,
+    "cagr_1y": 4.63,
+    "exp_ratio": 0.48
+  },
+  {
+    "scheme": "HDFC Floating Rate Debt Fund(M-IDCW)",
+    "category": "Debt - Floater Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Low Duration Debt Index",
+    "latest_nav": 10.18,
+    "cagr_1y": 4.77,
+    "exp_ratio": 0.48
+  },
+  {
+    "scheme": "HDFC Floating Rate Debt Fund(G)",
+    "category": "Debt - Floater Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Low Duration Debt Index",
+    "latest_nav": 41.36,
+    "cagr_1y": 4.78,
+    "exp_ratio": 0.48
+  },
+  {
+    "scheme": "ICICI Pru Floating Interest Fund(W-IDCW)",
+    "category": "Debt - Floater Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Low Duration Debt Index",
+    "latest_nav": 102.19,
+    "cagr_1y": 4.65,
+    "exp_ratio": 1.28
+  },
+  {
+    "scheme": "Edelweiss Balanced Advantage Fund-Reg(G)",
+    "category": "Hybrid - Dynamic Asset Allocation",
+    "type": "Open ended",
+    "benchmark": "NIFTY 50 Hybrid Composite Debt 50:50 Index",
+    "latest_nav": 36.78,
+    "cagr_1y": 13.23,
+    "exp_ratio": 1.75
+  },
+  {
+    "scheme": "Edelweiss Balanced Advantage Fund-Reg(Q-IDCW)",
+    "category": "Hybrid - Dynamic Asset Allocation",
+    "type": "Open ended",
+    "benchmark": "NIFTY 50 Hybrid Composite Debt 50:50 Index",
+    "latest_nav": 17.33,
+    "cagr_1y": 13.15,
+    "exp_ratio": 1.75
+  },
+  {
+    "scheme": "Edelweiss Balanced Advantage Fund-Reg(M-IDCW)",
+    "category": "Hybrid - Dynamic Asset Allocation",
+    "type": "Open ended",
+    "benchmark": "NIFTY 50 Hybrid Composite Debt 50:50 Index",
+    "latest_nav": 19.78,
+    "cagr_1y": 12.65,
+    "exp_ratio": 1.75
+  },
+  {
+    "scheme": "Invesco India Dynamic Equity Fund(IDCW)",
+    "category": "Hybrid - Dynamic Asset Allocation",
+    "type": "Open ended",
+    "benchmark": "CRISIL Hybrid 35+65 - Aggressive Index",
+    "latest_nav": 17.57,
+    "cagr_1y": 7.31,
+    "exp_ratio": 2.34
+  },
+  {
+    "scheme": "Invesco India Dynamic Equity Fund(G)",
+    "category": "Hybrid - Dynamic Asset Allocation",
+    "type": "Open ended",
+    "benchmark": "CRISIL Hybrid 35+65 - Aggressive Index",
+    "latest_nav": 38.14,
+    "cagr_1y": 7.32,
+    "exp_ratio": 2.34
+  },
+  {
+    "scheme": "Sundaram Balanced Advantage Fund(G)",
+    "category": "Hybrid - Dynamic Asset Allocation",
+    "type": "Open ended",
+    "benchmark": "NIFTY 50 Hybrid Composite Debt 50:50 Index",
+    "latest_nav": 26.27,
+    "cagr_1y": 7.99,
+    "exp_ratio": 2.13
+  },
+  {
+    "scheme": "Sundaram Balanced Advantage Fund(M-IDCW)",
+    "category": "Hybrid - Dynamic Asset Allocation",
+    "type": "Open ended",
+    "benchmark": "NIFTY 50 Hybrid Composite Debt 50:50 Index",
+    "latest_nav": 14.06,
+    "cagr_1y": 7.29,
+    "exp_ratio": 2.13
+  },
+  {
+    "scheme": "DSP Dynamic Asset Allocation Fund-Reg(G)",
+    "category": "Hybrid - Dynamic Asset Allocation",
+    "type": "Open ended",
+    "benchmark": "CRISIL Hybrid 50+50 - Moderate Index",
+    "latest_nav": 20.11,
+    "cagr_1y": 6.51,
+    "exp_ratio": 1.9
+  },
+  {
+    "scheme": "DSP Dynamic Asset Allocation Fund-Reg(M-IDCW)",
+    "category": "Hybrid - Dynamic Asset Allocation",
+    "type": "Open ended",
+    "benchmark": "CRISIL Hybrid 50+50 - Moderate Index",
+    "latest_nav": 11.66,
+    "cagr_1y": 6.49,
+    "exp_ratio": 1.9
+  },
+  {
+    "scheme": "Motilal Oswal Balance Advantage Fund-Reg(G)",
+    "category": "Hybrid - Dynamic Asset Allocation",
+    "type": "Open ended",
+    "benchmark": "CRISIL Hybrid 50+50 - Moderate Index",
+    "latest_nav": 15.09,
+    "cagr_1y": 3.87,
+    "exp_ratio": 2.38
+  },
+  {
+    "scheme": "Axis Long Term Equity Fund-Reg(G)",
+    "category": "Equity - ELSS",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 63.63,
+    "cagr_1y": 6.75,
+    "exp_ratio": 1.6
+  },
+  {
+    "scheme": "Axis Long Term Equity Fund-Reg(IDCW)",
+    "category": "Equity - ELSS",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 22.41,
+    "cagr_1y": 6.75,
+    "exp_ratio": 1.6
+  },
+  {
+    "scheme": "Mirae Asset Tax Saver Fund-Reg(G)",
+    "category": "Equity - ELSS",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 31.09,
+    "cagr_1y": 17.48,
+    "exp_ratio": 1.71
+  },
+  {
+    "scheme": "Mirae Asset Tax Saver Fund-Reg(IDCW)",
+    "category": "Equity - ELSS",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 19.33,
+    "cagr_1y": 17.49,
+    "exp_ratio": 1.71
+  },
+  {
+    "scheme": "Canara Rob Equity Tax Saver Fund-Reg(IDCW)",
+    "category": "Equity - ELSS",
+    "type": "Open ended",
+    "benchmark": "S&P BSE 500 - TRI",
+    "latest_nav": 36.43,
+    "cagr_1y": 16.37,
+    "exp_ratio": 1.98
+  },
+  {
+    "scheme": "DSP Tax Saver Fund-Reg(IDCW)",
+    "category": "Equity - ELSS",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 18.74,
+    "cagr_1y": 16.16,
+    "exp_ratio": 1.84
+  },
+  {
+    "scheme": "DSP Tax Saver Fund-Reg(G)",
+    "category": "Equity - ELSS",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 83.03,
+    "cagr_1y": 16.3,
+    "exp_ratio": 1.84
+  },
+  {
+    "scheme": "Kotak Tax Saver Fund(IDCW)",
+    "category": "Equity - ELSS",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 28.36,
+    "cagr_1y": 15.53,
+    "exp_ratio": 2.08
+  },
+  {
+    "scheme": "Kotak Tax Saver Fund(G)",
+    "category": "Equity - ELSS",
+    "type": "Open ended",
+    "benchmark": "NIFTY 500 - TRI",
+    "latest_nav": 75.78,
+    "cagr_1y": 15.63,
+    "exp_ratio": 2.08
+  },
+  {
+    "scheme": "Canara Rob Equity Tax Saver Fund-Reg(G)",
+    "category": "Equity - ELSS",
+    "type": "Open ended",
+    "benchmark": "S&P BSE 500 - TRI",
+    "latest_nav": 116.48,
+    "cagr_1y": 16.57,
+    "exp_ratio": 1.98
+  },
+  {
+    "scheme": "ICICI Pru Nifty Next 50 Index Fund(G)",
+    "category": "Index Funds - Nifty Next 50",
+    "type": "Open ended",
+    "benchmark": "NIFTY NEXT 50 - TRI",
+    "latest_nav": 34.04,
+    "cagr_1y": 10.22,
+    "exp_ratio": 0.65
+  },
+  {
+    "scheme": "ICICI Pru Nifty Next 50 Index Fund(IDCW)",
+    "category": "Index Funds - Nifty Next 50",
+    "type": "Open ended",
+    "benchmark": "NIFTY NEXT 50 - TRI",
+    "latest_nav": 34.04,
+    "cagr_1y": 10.22,
+    "exp_ratio": 0.65
+  },
+  {
+    "scheme": "UTI Nifty Next 50 Index Fund-Reg(G)",
+    "category": "Index Funds - Nifty Next 50",
+    "type": "Open ended",
+    "benchmark": "NIFTY NEXT 50 - TRI",
+    "latest_nav": 13.79,
+    "cagr_1y": 10.44,
+    "exp_ratio": 0.79
+  },
+  {
+    "scheme": "IDBI Nifty Junior Index Fund(G)",
+    "category": "Index Funds - Nifty Next 50",
+    "type": "Open ended",
+    "benchmark": "NIFTY NEXT 50 - TRI",
+    "latest_nav": 28.93,
+    "cagr_1y": 10.18,
+    "exp_ratio": 0.9
+  },
+  {
+    "scheme": "IDBI Nifty Junior Index Fund(IDCW)",
+    "category": "Index Funds - Nifty Next 50",
+    "type": "Open ended",
+    "benchmark": "NIFTY NEXT 50 - TRI",
+    "latest_nav": 28.93,
+    "cagr_1y": 10.18,
+    "exp_ratio": 0.9
+  },
+  {
+    "scheme": "HSBC Nifty Next 50 Index Fund-Reg(G)",
+    "category": "Index Funds - Nifty Next 50",
+    "type": "Open ended",
+    "benchmark": "NIFTY NEXT 50 - TRI",
+    "latest_nav": 16.65,
+    "cagr_1y": 12.0,
+    "exp_ratio": 0.8
+  },
+  {
+    "scheme": "DSP NIFTY Next 50 Index Fund-Reg(G)",
+    "category": "Index Funds - Nifty Next 50",
+    "type": "Open ended",
+    "benchmark": "NIFTY NEXT 50 - TRI",
+    "latest_nav": 14.91,
+    "cagr_1y": 10.37,
+    "exp_ratio": 0.61
+  },
+  {
+    "scheme": "DSP NIFTY Next 50 Index Fund-Reg(IDCW)",
+    "category": "Index Funds - Nifty Next 50",
+    "type": "Open ended",
+    "benchmark": "NIFTY NEXT 50 - TRI",
+    "latest_nav": 14.21,
+    "cagr_1y": 10.37,
+    "exp_ratio": 0.61
+  },
+  {
+    "scheme": "Motilal Oswal Nifty Next 50 Index Fund-Reg(G)",
+    "category": "Index Funds - Nifty Next 50",
+    "type": "Open ended",
+    "benchmark": "NIFTY NEXT 50 - TRI",
+    "latest_nav": 13.39,
+    "cagr_1y": 9.84,
+    "exp_ratio": 0.98
+  },
+  {
+    "scheme": "Kotak Nifty Next 50 Index Fund-Reg(G)",
+    "category": "Index Funds - Nifty Next 50",
+    "type": "Open ended",
+    "benchmark": "NIFTY NEXT 50 - TRI",
+    "latest_nav": 11.04,
+    "cagr_1y": 12.0,
+    "exp_ratio": 0.83
+  },
+  {
+    "scheme": "Kotak Gold Fund(G)",
+    "category": "FoFs (Domestic / Overseas ) - Gold",
+    "type": "Open ended",
+    "benchmark": "Gold-India",
+    "latest_nav": 22.62,
+    "cagr_1y": 10.12,
+    "exp_ratio": 0.54
+  },
+  {
+    "scheme": "Kotak Gold Fund(IDCW)",
+    "category": "FoFs (Domestic / Overseas ) - Gold",
+    "type": "Open ended",
+    "benchmark": "Gold-India",
+    "latest_nav": 22.62,
+    "cagr_1y": 10.12,
+    "exp_ratio": 0.54
+  },
+  {
+    "scheme": "SBI Gold-Reg(G)",
+    "category": "FoFs (Domestic / Overseas ) - Gold",
+    "type": "Open ended",
+    "benchmark": "Gold-London Bullion Market association (LBMA)",
+    "latest_nav": 17.07,
+    "cagr_1y": 10.1,
+    "exp_ratio": 0.42
+  },
+  {
+    "scheme": "SBI Gold-Reg(IDCW)",
+    "category": "FoFs (Domestic / Overseas ) - Gold",
+    "type": "Open ended",
+    "benchmark": "Gold-London Bullion Market association (LBMA)",
+    "latest_nav": 17.07,
+    "cagr_1y": 10.11,
+    "exp_ratio": 0.42
+  },
+  {
+    "scheme": "ICICI Pru Regular Gold Savings Fund(FOF)(G)",
+    "category": "FoFs (Domestic / Overseas ) - Gold",
+    "type": "Open ended",
+    "benchmark": "Gold-India",
+    "latest_nav": 18.1,
+    "cagr_1y": 10.09,
+    "exp_ratio": 0.53
+  },
+  {
+    "scheme": "ICICI Pru Regular Gold Savings Fund(FOF)(IDCW)",
+    "category": "FoFs (Domestic / Overseas ) - Gold",
+    "type": "Open ended",
+    "benchmark": "Gold-India",
+    "latest_nav": 18.1,
+    "cagr_1y": 10.09,
+    "exp_ratio": 0.53
+  },
+  {
+    "scheme": "HDFC Gold Fund(G)",
+    "category": "FoFs (Domestic / Overseas ) - Gold",
+    "type": "Open ended",
+    "benchmark": "Gold-India",
+    "latest_nav": 17.49,
+    "cagr_1y": 10.02,
+    "exp_ratio": 0.65
+  },
+  {
+    "scheme": "Nippon India Gold Savings Fund(G)",
+    "category": "FoFs (Domestic / Overseas ) - Gold",
+    "type": "Open ended",
+    "benchmark": "Gold-India",
+    "latest_nav": 22.43,
+    "cagr_1y": 9.92,
+    "exp_ratio": 0.37
+  },
+  {
+    "scheme": "Nippon India Gold Savings Fund(IDCW)",
+    "category": "FoFs (Domestic / Overseas ) - Gold",
+    "type": "Open ended",
+    "benchmark": "Gold-India",
+    "latest_nav": 22.43,
+    "cagr_1y": 9.92,
+    "exp_ratio": 0.37
+  },
+  {
+    "scheme": "DSP World Gold Fund-Reg(G)",
+    "category": "FoFs (Domestic / Overseas ) - Gold",
+    "type": "Open ended",
+    "benchmark": "FTSE Gold Mines",
+    "latest_nav": 15.89,
+    "cagr_1y": 3.91,
+    "exp_ratio": 2.37
+  },
+  {
+    "scheme": "Axis Banking & PSU Debt Fund-Reg(G)",
+    "category": "Debt - Banking and PSU Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Banking and PSU Debt Index",
+    "latest_nav": 2214.02,
+    "cagr_1y": 3.91,
+    "exp_ratio": 0.63
+  },
+  {
+    "scheme": "Axis Banking & PSU Debt Fund-Reg(DD-IDCW)",
+    "category": "Debt - Banking and PSU Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Banking and PSU Debt Index",
+    "latest_nav": 1038.61,
+    "cagr_1y": 3.9,
+    "exp_ratio": 0.63
+  },
+  {
+    "scheme": "Axis Banking & PSU Debt Fund-Reg(W-IDCW)",
+    "category": "Debt - Banking and PSU Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Banking and PSU Debt Index",
+    "latest_nav": 1037.81,
+    "cagr_1y": 3.91,
+    "exp_ratio": 0.63
+  },
+  {
+    "scheme": "Axis Banking & PSU Debt Fund-Reg(M-IDCW)",
+    "category": "Debt - Banking and PSU Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Banking and PSU Debt Index",
+    "latest_nav": 1033.99,
+    "cagr_1y": 3.91,
+    "exp_ratio": 0.63
+  },
+  {
+    "scheme": "IDFC Banking & PSU Debt Fund-Reg(G)",
+    "category": "Debt - Banking and PSU Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Banking and PSU Debt Index",
+    "latest_nav": 20.68,
+    "cagr_1y": 3.75,
+    "exp_ratio": 0.62
+  },
+  {
+    "scheme": "IDFC Banking & PSU Debt Fund-Reg(IDCW)",
+    "category": "Debt - Banking and PSU Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Banking and PSU Debt Index",
+    "latest_nav": 11.17,
+    "cagr_1y": 3.75,
+    "exp_ratio": 0.62
+  },
+  {
+    "scheme": "DSP Banking & PSU Debt Fund-Reg(G)",
+    "category": "Debt - Banking and PSU Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Banking and PSU Debt Index",
+    "latest_nav": 20.04,
+    "cagr_1y": 3.32,
+    "exp_ratio": 0.57
+  },
+  {
+    "scheme": "DSP Banking & PSU Debt Fund-Reg(IDCW)",
+    "category": "Debt - Banking and PSU Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Banking and PSU Debt Index",
+    "latest_nav": 10.47,
+    "cagr_1y": 3.32,
+    "exp_ratio": 0.57
+  },
+  {
+    "scheme": "DSP Banking & PSU Debt Fund-Reg(M-IDCW Reinv)",
+    "category": "Debt - Banking and PSU Fund",
+    "type": "Open ended",
+    "benchmark": "NIFTY Banking and PSU Debt Index",
+    "latest_nav": 10.21,
+    "cagr_1y": 3.32,
+    "exp_ratio": 1.2
+  },
+  {
+    "scheme": "Kotak Banking and PSU Debt Fund(G)",
+    "category": "Debt - Banking and PSU Fund",
+    "type": "Open ended",
+    "benchmark": "CRISIL Banking and PSU Debt Index",
+    "latest_nav": 54.57,
+    "cagr_1y": 3.64,
+    "exp_ratio": 0.81
+  }
+]

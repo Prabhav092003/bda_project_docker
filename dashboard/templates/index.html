@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mutual Fund Performance Trend Analytics | Big Data Analytics</title>
+  <!-- All assets are self-hosted: the dashboard works fully offline (e.g. inside Docker) -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/fonts.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <script src="{{ url_for('static', filename='vendor/chart.umd.js') }}"></script>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <div class="brand-section">
+        <div class="brand-icon">📈</div>
+        <div class="brand-title">
+          <h1>Mutual Fund Performance Trend Analytics</h1>
+          <p>Real-Time Kafka Streaming &bull; Hadoop HDFS Lake &bull; MapReduce Rolling 30/60/90-Day Returns</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button id="btn-stream-day" class="btn btn-primary" title="Stream next batch of daily NAV quotes via Kafka">
+          ⚡ Stream Next Day (Kafka)
+        </button>
+        <button id="btn-run-mr" class="btn btn-emerald" title="Trigger MapReduce rolling returns computation">
+          ⚙️ Run MapReduce Job
+        </button>
+        <button id="btn-toggle-stream" class="btn btn-secondary" title="Toggle automatic continuous daily market stream">
+          ▶ Live Ingestion Loop
+        </button>
+        <button id="btn-reset" class="btn btn-secondary" title="Restore the demo to the historical baseline (clears streamed days)">
+          ↺ Reset Demo
+        </button>
+      </div>
+    </header>
+
+    <!-- Pipeline Architecture Status Bar -->
+    <div class="pipeline-status-bar">
+      <!-- Kafka Status -->
+      <div class="glass status-badge-card badge-kafka">
+        <div class="status-icon">⚡</div>
+        <div class="status-info">
+          <h4>Kafka Streaming Broker</h4>
+          <div id="status-kafka-msgs" class="value">0 msgs</div>
+          <div id="status-kafka-sub" class="sub">Topic: mutual_fund_daily_nav</div>
+          <div id="status-kafka-mode" class="sub"></div>
+        </div>
+      </div>
+
+      <!-- HDFS Status -->
+      <div class="glass status-badge-card badge-hdfs">
+        <div class="status-icon">🗄️</div>
+        <div class="status-info">
+          <h4>HDFS Data Lake</h4>
+          <div id="status-hdfs-records" class="value">0 records</div>
+          <div id="status-hdfs-sub" class="sub">Partitions: year=YYYY/month=MM/</div>
+          <div id="status-hdfs-mode" class="sub"></div>
+        </div>
+      </div>
+
+      <!-- MapReduce Status -->
+      <div class="glass status-badge-card badge-mr">
+        <div class="status-icon">🔄</div>
+        <div class="status-info">
+          <h4>MapReduce Engine</h4>
+          <div id="status-mr-info" class="value">Ready</div>
+          <div id="status-mr-sub" class="sub">Last Run: Standby</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Tabs -->
+    <div class="view-tabs">
+      <button class="tab-btn active" data-tab="analytics">📊 Comparative Performance Analytics</button>
+      <button class="tab-btn" data-tab="architecture">🏗️ Big Data Pipeline & MapReduce Formulation</button>
+    </div>
+
+    <!-- MAIN VIEW 1: Analytics Dashboard -->
+    <div id="analytics-view">
+      <!-- KPI Metric Cards Grid -->
+      <div class="kpi-grid">
+        <div class="glass kpi-card">
+          <div class="kpi-header">
+            <span class="kpi-title">Monitored Funds</span>
+            <span class="kpi-indicator indicator-blue">Active Universe</span>
+          </div>
+          <div id="kpi-funds-count" class="kpi-val">0</div>
+          <div id="kpi-funds-desc" class="kpi-desc">Across Equity, Debt &amp; Hybrid categories</div>
+        </div>
+
+        <div class="glass kpi-card">
+          <div class="kpi-header">
+            <span class="kpi-title">90-Day Alpha Beat Rate</span>
+            <span class="kpi-indicator indicator-green">Excess Returns</span>
+          </div>
+          <div id="kpi-outperform-rate" class="kpi-val">0.0%</div>
+          <div class="kpi-desc">Funds outperforming benchmark indices</div>
+        </div>
+
+        <div class="glass kpi-card">
+          <div class="kpi-header">
+            <span class="kpi-title">Top Alpha Generator</span>
+            <span id="kpi-top-alpha" class="kpi-indicator indicator-green">+0.0% α</span>
+          </div>
+          <div id="kpi-top-fund-name" class="kpi-val" style="font-size: 1.25rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Loading...</div>
+          <div class="kpi-desc">Leading excess return over benchmark index</div>
+        </div>
+
+        <div class="glass kpi-card">
+          <div class="kpi-header">
+            <span class="kpi-title">MapReduce Elapsed Time</span>
+            <span class="kpi-indicator indicator-blue">Distributed Exec</span>
+          </div>
+          <div id="kpi-runtime" class="kpi-val">0.0s</div>
+          <div class="kpi-desc">Full Map, Shuffle & Reduce aggregation</div>
+        </div>
+      </div>
+
+      <!-- Primary Visualization: Rolling Return Comparison Deep Dive -->
+      <div class="charts-grid-main">
+        <div class="glass chart-card">
+          <div class="chart-header">
+            <div class="chart-title">
+              <h3>Fund vs Benchmark Rolling Returns Trajectory</h3>
+              <p id="fund-meta-display">Select a fund to inspect rolling 30/60/90-day returns and excess alpha</p>
+            </div>
+            <div class="chart-controls">
+              <select id="fund-select" class="chart-select" aria-label="Select Mutual Fund Scheme"></select>
+            </div>
+          </div>
+          <div class="chart-container-rel">
+            <canvas id="rollingReturnChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Category Alpha Chart -->
+        <div class="glass chart-card">
+          <div class="chart-header">
+            <div class="chart-title">
+              <h3>Category Alpha Generation</h3>
+              <p>Average 90-day excess returns vs benchmark by category</p>
+            </div>
+          </div>
+          <div class="chart-container-rel">
+            <canvas id="categoryAlphaChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Secondary Visualizations: Top vs Bottom & Risk-Return -->
+      <div class="charts-grid-secondary">
+        <div class="glass chart-card">
+          <div class="chart-header">
+            <div class="chart-title">
+              <h3>Top Alpha Leaders vs Underperformers</h3>
+              <p>90-Day excess return (α) spread across fund universe</p>
+            </div>
+          </div>
+          <div class="chart-container-rel">
+            <canvas id="topAlphaChart"></canvas>
+          </div>
+        </div>
+
+        <div class="glass chart-card">
+          <div class="chart-header">
+            <div class="chart-title">
+              <h3>Risk vs Return Profile</h3>
+              <p>Annualized Volatility (Risk) vs Rolling 90-Day Return</p>
+            </div>
+          </div>
+          <div class="chart-container-rel">
+            <canvas id="riskReturnChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fund Explorer Table -->
+      <div class="glass table-card">
+        <div class="table-toolbar">
+          <div class="search-box">
+            <span>🔍</span>
+            <input type="text" id="search-input" placeholder="Search by Fund Name, Category, or Benchmark...">
+          </div>
+          <div class="filters-group">
+            <select id="filter-category" class="filter-select" aria-label="Filter by Category">
+              <option value="ALL">All Categories</option>
+            </select>
+            <select id="filter-status" class="filter-select" aria-label="Filter by Status">
+              <option value="ALL">All Performance Status</option>
+              <option value="OUTPERFORMING">Outperforming (Alpha ≥ 0)</option>
+              <option value="UNDERPERFORMING">Underperforming (Alpha &lt; 0)</option>
+            </select>
+            <span id="table-count-badge" style="font-size: 0.8rem; color: var(--text-muted); align-self: center;"></span>
+          </div>
+        </div>
+
+        <div class="table-responsive">
+          <table class="fund-table">
+            <thead>
+              <tr>
+                <th>Scheme Name &amp; Category</th>
+                <th>Benchmark Index</th>
+                <th>NAV</th>
+                <th>30-Day Ret (α)</th>
+                <th>60-Day Ret (α)</th>
+                <th>90-Day Ret (α)</th>
+                <th>Beta (β)</th>
+                <th>Volatility (σ)</th>
+                <th>Status</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="funds-table-body">
+              <!-- Dynamically populated via JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- MAIN VIEW 2: Big Data Architecture & MapReduce Explanation -->
+    <div id="architecture-view" class="architecture-view">
+      <div class="arch-flow-grid">
+        <div class="glass arch-step-card">
+          <div class="arch-step-num">1</div>
+          <h4>Kafka Streaming Layer</h4>
+          <p>
+            Daily NAV ticks &amp; Benchmark indices are published to Kafka topic <code>mutual_fund_daily_nav</code>.
+            Keyed by <code>Scheme</code> to guarantee sequential delivery of daily time-series records per fund.
+          </p>
+          <div class="code-snippet">
+producer.send('mutual_fund_daily_nav', key=scheme, value=nav_record)
+          </div>
+        </div>
+
+        <div class="glass arch-step-card">
+          <div class="arch-step-num">2</div>
+          <h4>Hadoop HDFS Lake</h4>
+          <p>
+            A Kafka consumer ingests streamed ticks and writes them into time-partitioned HDFS directories
+            <code>/user/bda/mutual_funds/nav_data/year=YYYY/month=MM/</code> for distributed Big Data storage.
+          </p>
+          <div class="code-snippet">
+/user/bda/mutual_funds/nav_data/year=2026/month=08/nav_data_2026_08.csv
+          </div>
+        </div>
+
+        <div class="glass arch-step-card">
+          <div class="arch-step-num">3</div>
+          <h4>Hadoop Map Phase</h4>
+          <p>
+            <code>mapper.py</code> reads partitioned CSV files across cluster nodes via STDIN. Emits key <code>Scheme</code>
+            and value <code>Date,NAV,Benchmark,BenchmarkVal,Category</code> to feed the shuffle &amp; sort phase.
+          </p>
+          <div class="code-snippet">
+sys.stdout.write(f"{scheme}\t{date},{nav},{bench},{bval},{cat}\n")
+          </div>
+        </div>
+
+        <div class="glass arch-step-card">
+          <div class="arch-step-num">4</div>
+          <h4>Hadoop Reduce Phase</h4>
+          <p>
+            <code>reducer.py</code> aggregates all chronological dates per scheme. Executes rolling window calculations
+            for 30/60/90-day returns, benchmark alphas, beta, and annualized volatility metrics.
+          </p>
+          <div class="code-snippet">
+Alpha_90 = Ret_Fund_90d - Ret_Bench_90d
+Beta = Cov(R_fund, R_bench) / Var(R_bench)
+          </div>
+        </div>
+      </div>
+
+      <div class="glass" style="padding: 28px; margin-bottom: 28px;">
+        <h3 style="margin-bottom: 14px; font-size: 1.25rem;">Hadoop Cluster Deployment Command</h3>
+        <p style="color: var(--text-secondary); margin-bottom: 14px; font-size: 0.9rem;">
+          To run on a distributed Apache Hadoop cluster with YARN, use Hadoop Streaming:
+        </p>
+        <div class="code-snippet" style="font-size: 0.85rem; line-height: 1.6;">
+hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-3.3.6.jar \<br>
+&nbsp;&nbsp;-D mapreduce.job.name="MutualFund_Rolling_Returns" \<br>
+&nbsp;&nbsp;-D mapreduce.job.reduces=4 \<br>
+&nbsp;&nbsp;-files mapper.py,reducer.py \<br>
+&nbsp;&nbsp;-mapper "python3 mapper.py" \<br>
+&nbsp;&nbsp;-reducer "python3 reducer.py" \<br>
+&nbsp;&nbsp;-input "/user/bda/mutual_funds/nav_data/*" \<br>
+&nbsp;&nbsp;-output "/user/bda/mutual_funds/output"
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="app-footer">
+    <span id="footer-asof">Data as of: &mdash;</span>
+    <span>NAV &amp; benchmark time-series are <strong>simulated</strong> (seeded random walk) around the Kaggle <em>Mutual Funds India</em> snapshot &mdash; scheme, category, benchmark, expense ratio and 1-yr CAGR are real.</span>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div id="toast">
+    <span>💡</span>
+    <span id="toast-msg">Operation completed successfully</span>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+# ---------------------------------------------------------------------------
+#  Default stack  (works anywhere, no extra downloads beyond the Python image)
+#
+#      docker compose up --build
+#      -> http://localhost:5050
+#
+#  Kafka and HDFS are emulated inside the app container (write-ahead-log broker +
+#  HDFS-style partitioned lake).  For REAL Apache Kafka + HDFS containers use:
+#
+#      docker compose -f docker-compose.yml -f docker-compose.cluster.yml up --build
+# ---------------------------------------------------------------------------
+services:
+  app:
+    build: .
+    image: bda/mutual-fund-analytics:latest
+    container_name: bda-dashboard
+    ports:
+      - "${DASHBOARD_PORT:-5050}:5050"
+    environment:
+      PORT: "5050"
+    restart: unless-stopped
